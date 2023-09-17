@@ -23,10 +23,9 @@ function draw() {
             r = Math.random()*255;
             g = Math.random()*255;
             b = Math.random()*255;
-            stroke(r, g, b);
+            stroke(0,0,0);
             noFill();
             rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
-            fill(r, g, b);
             text(objects[i].label + " " + percent + "%", objects[i].x + 5, objects[i].y + 15);
         }
     }
